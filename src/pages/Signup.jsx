@@ -21,7 +21,7 @@ const Signup = () => {
     gender: "",
     interestedIn: [],
     lookingFor: [],
-    profileImage: null,
+    // profileImage: null,
     interests: [],
   });
 
@@ -33,9 +33,9 @@ const Signup = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handlePhotoChange = (e) => {
-    setFormData({ ...formData, profileImage: e.target.files[0] });
-  };
+  // const handlePhotoChange = (e) => {
+  //   setFormData({ ...formData, profileImage: e.target.files[0] });
+  // };
 
   // move to the next step and update the main form data
   const handleNext = (newData) => {

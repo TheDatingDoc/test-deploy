@@ -6,7 +6,7 @@ import BirthdayForm from "../components/signup-form-components/BirthdayForm";
 import GenderForm from "../components/signup-form-components/GenderForm";
 import InterestedInForm from "../components/signup-form-components/InterestedInForm";
 import LookingForForm from "../components/signup-form-components/LookingForForm";
-import UploadPhotoForm from "../components/signup-form-components/UploadPhotoForm";
+// import UploadPhotoForm from "../components/signup-form-components/UploadPhotoForm";
 import InterestsForm from "../components/signup-form-components/InterestsForm";
 import Auth from "../utils/auth";
 
@@ -93,9 +93,9 @@ const Signup = () => {
         <LookingForForm formData={formData} setFormData={setFormData} handleChange={handleChange} handleNext={handleNext} />
       )}
 
-      {step === 6 && (
+      {/* {step === 6 && (
         <UploadPhotoForm formData={formData} setFormData={setFormData} handlePhotoChange={handlePhotoChange} handleNext={handleNext} />
-      )}
+      )} */}
 
       {step === 7 && (
         <InterestsForm formData={formData} setFormData={setFormData} handleChange={handleChange} handleSubmit={handleSubmit} />
